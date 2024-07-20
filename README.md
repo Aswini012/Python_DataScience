@@ -14,6 +14,7 @@ Python was invented by Guido Van Rossum.
 ## DATATYPES
  
 In Python we use mainly three datatypes:
+
 • Integer(int) datatype stores whole numbers.
   Ex: 1,2,3
 
