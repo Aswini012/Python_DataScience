@@ -1,4 +1,5 @@
 
+
 # Python
 
 Python was invented by Guido Van Rossum.
@@ -13,42 +14,43 @@ Python was invented by Guido Van Rossum.
 ## DATATYPES
  
 In Python we use mainly three datatypes:
--> Integer(int) datatype stores whole numbers.
-Ex: 1,2,3
+• Integer(int) datatype stores whole numbers.
+  Ex: 1,2,3
 
--> Float-float datatype stores decimal values.
-Ex: 22.22,4.32
+• Float-float datatype stores decimal values.
+  Ex: 22.22,4.32
 
--> String- (str) Anything Written in b/w quotes('',"",)known as string.
-Ex: "aswini" 
+• String- (str) Anything Written in b/w quotes('',"",)known as 
+     string.
+  Ex: "aswini" 
 
 ## Variables
 
-. Variables saved on temporary memory (RAM) not in permanent 
-  memory.
+•  Variables saved on temporary memory (RAM) not in permanent 
+   memory.
   
-. int and float datatypes occupies 4 bytes of memory.
+•  int and float datatypes occupies 4 bytes of memory.
 
-. string datatype occupies 1 bytes for each character and space 
-  in  between the string is also a character for example 'python' 
-  is a string which has 6 characters and each character holds the 1
-  byte memory.
+•  string datatype occupies 1 bytes for each character and space 
+   in  between the string is also a character for example 'python' 
+   is a string which has 6 characters and each character holds
+   the  1 byte memory.
 
- . we can find the address of an variable by using the id
+•  we can find the address of an variable by using the id
    (variable) function. 
 
-. we can find a type of a variable by using the type(a) function.
+•  we can find a type of a variable by using the type(a) function.
 ## Rules to create a variable
 
-. Variable should not start with a number if you want to use 
+• Variable should not start with a number if you want to use 
   number as a variable use underscore(_) in starting.
 
-. Variable should be a single word or a character if you want to 
+• Variable should be a single word or a character if you want to 
   use multiple words use(_) in between them.
 
-. Python variables are completely casesensitive.
+• Python variables are completely casesensitive.
 
-. Don't use the below punctuations as a variable like !,@,#,$,%,<,>
+• Don't use the below punctuations as a variable like !,@,#,$,%,<,>
    ,&,*,(,).
 
   
@@ -56,39 +58,129 @@ Ex: "aswini"
  
 ## print statements in python
 
-. we have 4 types for print in python.
+•   we have 4 types for print in python.
 
-. TYPE 1 :
+• TYPE 1 :
          
-         . Using comma(,)we can add one datatype inside the print
-           with another datatype and the comma (,) will provide the
-           one tab space.
+         °  Using comma(,)we can add one datatype inside the print
+            with another datatype and the comma (,) will provide 
+            the one tab space.
 
-. TYPE 2 :
+• TYPE 2 :
 
-         . Using + operator 
-         . In this type it adds only two string variables and
-           doesnot add anythong like string to int.
-         .  In case of any variable in int or float datatype,we 
-           have to convert it into string datatype to add with 
-           another variable.
-         .  It is most leastly used in the realtime.
+         °  Using + operator 
+         °  In this type it adds only two string variables and
+            doesnot add anythong like string to int.
+         °  In case of any variable in int or float datatype,we 
+             have to convert it into string datatype to add with 
+             another variable.
+         °  It is most leastly used in the realtime.
 
-. TYPE 3 :
+• TYPE 3 :
 
-        . In this type we use the identifiers to print the 
-          varibale.
-        . for int datatype we use %d.
-        . for float datatype we use %f.
-        . for string datatype we use the %s.
+        °  In this type we use the identifiers to print the 
+           varibale.
+        °  for int datatype we use %d.
+        °  for float datatype we use %f.
+        °  for string datatype we use the %s.
 
-. TYPE 4 :
+• TYPE 4 :
         
-        . Using f function and {}
-        . It is mostly used in the realtime.
-        . example: print(f'my name is {variable}')
+        °  Using f function and {}
+        °  It is mostly used in the realtime.
+        °  example: print(f'my name is {variable}')
           
           
 ## OPERATORS
+
+• Addition (+) :
+    
+          °  This operator used for adding the two variables.
+          °  we cannot add any datatype with the string until 
+             it converted into the string.
+          
+• Subtraction or difference (-) :
+
+           °  This operator is used to find the difference b/w
+              the two variables.
+          
+• Multiplication (*) :
+
+           °  This operator gives the product as a output for a 
+               given outputs.
+
+• Division (/) :
+
+           °  Division operator make operation unil we get the 
+              remainder as 0 and give quotient as a output.
+
+• Floor Division (//) : 
+
+           °  Floor division make operation and gives the int 
+              value only that man eliminate the float values from
+              the point.
+
+• Modulo operator (%) :
+
+           °  Modulo function gives the final remainder as a
+              input.
+
+• Square :
+
+           °  Finds the square value of a given number and the 
+              number should be in a int or float datatype.
+
+• Cube :
+ 
+           °  finds the cube value of a given number and the 
+              number should be in aint or float datatype.
+
+• power (pow) :
+
+           °  finds the power value of a given number and the 
+              number should be in a int or float datatype.
+           °  syntax : pow(a,b) here a is the base value 
+                       and  b  is the power value     
+           °  syntax : pow(a,b,c) here a is the base value and b 
+                       is the power value and the result is     
+                       divided by c and gives the remainder as
+                       a output.
+
+• Equal operator (=) :
+
+           °   assain left side variable of = to the right side 
+               variable.
+
+• is equal to (==) :
+
+           °   checks the LHS and RHS equal or not and give the 
+               boolean as a output.
+
+• greaterthan (>>) :
+
+           °   checks the LHS is greaterthan RHS or not.
+
+• greaterthan or equal to (>=) :
+
+           °   checks the LHS is greaterthan or equal to RHS
+                or not.
+
+• lessthan (<) :
+
+           °  checks the LHS is lessthan RHS or not.
+
+• lessthan or equal to (<=) :
+
+           °  checks the LHS is lessthan or equal to RHS or not.
+
+• and operator :
+
+           °   if both the conditions are then it will give 
+               true as a output.
+
+• or operator :
+    
+           °   if anyone of the condition is true then it
+               will print the true as a output
 
 
