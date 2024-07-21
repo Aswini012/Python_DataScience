@@ -185,3 +185,171 @@ In Python we use mainly three datatypes:
                will print the true as a output
 
 
+
+## String
+
+• In python,strings can be created by enclosing the character or 
+  the sequence of characters in the quotes.
+
+• Python allows us to use single quotes,double quotes,or triple
+   quotes to create strings.
+EX : a = "datascience"
+ 
+ 
+## Concepts in strings
+
+ • Indexing :
+
+          ° The indexing of python strings starts from 0.
+          EX: a = "hello"
+          str[0] = h
+          str[2] = l
+          str[4] = 0
+
+ • Slicing :
+          
+          ° slicing in strings specify the start index and the end
+            index,seperated by a colon,to return a part of the 
+            string.
+            Ex: a = "datascience"
+                print(a[2:5])
+
+ • Skipping :
+
+          ° skipping in strings specify the start index and the 
+            end index,and the skip value ,to return part of the 
+            string.
+          Ex: a = "datascience"
+              print(a[::2])
+
+ • Is string mutable or immutable:
+
+          ° trying to add in the memory:
+               a = "kiran"
+               a[5] = j
+               print(a)
+         # It gives Error
+          ° trying to delete the value in the memory:
+               a = "kiran"
+               del a[2]
+               print(a)
+         # It gives Error 
+         # from this,string is immutable.
+          
+         
+          
+## String Builtin Functions:
+   
+  •  len() : To know the no of values in string.
+     
+      Ex: a = 'anu'
+          print(len(a))
+
+  • capitalize() : It will capitalize the starting letter.
+     
+      Ex: a = 'python is very powerfull language'
+          print(a.capitalize())
+
+  • title() : It will capitalize each word starting letter into 
+              capital.
+   
+    Ex: a = 'python is easy language'
+        print(a.title())
+
+  • lower() : It will returns all characters of given    
+                 string in lowercase.
+   
+    Ex: a = 'America'
+        print(a.lower())
+
+  • upper() : It will returns all characters of given string 
+              in uppercase.
+
+    Ex: a = 'America'
+        print(a.upper())
+
+  • islower() : islower() method returns True if all characters 
+                in the string  are in lowercase.It returns False 
+                if not in lowercase.
+
+    Ex: a = 'America'
+        print(a.islower())
+
+  • isupper() : isupper() method returns True if all characters 
+                in the string are in upperacse.It returns False
+                 if not in uppercase.
+
+    Ex: a = 'America'
+        print(a.isupper())
+
+  • isalpha() : isalpha() method returns True if all are alphabets
+                in the string else it returns False.
+
+    Ex: a = 'america123'
+        print(a.isalpha())
+
+  • isnumeric() : In python,isnumeric() method checks whether all 
+                  the characters of the string are numeric
+                   characters or not.It returns True if all the 
+                   characters are numeric,otherwise returns False.
+                 
+    Ex: a = 'python1322'
+    print(a.isnumeric())
+
+  • isalnum() : isalnum() method checks whether the all 
+                   characters of the string is alphanumeric or 
+                   not.
+
+    Ex: a = 'python1233'
+        print(a.isalnum())
+
+  • starts with() : whether the string starting with our input or 
+                    not.
+
+    Ex: a = 'deep learning'
+        print(a.startswith('d'))
+
+  • ends with() : whether the string ending with our input or not.
+
+    Ex: a = 'deep learning'
+        print(a.endswith('g'))
+
+  • replace() : replace() method replaces the old sequences of 
+                characters with the new sequence.
+
+    Ex: a = 'kiran'
+        print(a.replace('r','j'))
+
+  • count() : count() method is used to count the number of times 
+              the given character repeating.
+
+    Ex: a = 'data science'
+        print(a.count('i'))
+
+  • split() : split() method splits the string into a comma 
+              seperated list.
+              
+
+  Ex : a = 'I love my country'
+       b = a.split()
+       print(b)
+
+  • join() : join() method used to join the strings.
+
+
+  Ex: a = ['usa','uk','paris','canada']
+      b = ''.join(a)
+      print(b)
+
+
+  
+  
+
+
+
+  
+
+
+              
+
+
